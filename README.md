@@ -25,11 +25,17 @@ Regression analysis
 
 * 
 
-## 
+## Programming languages
+### Python
 * python packages
 * [pandas]()
 * [Dtale]()
 
+### R
 * R packages
 * [bio3d](http://thegrantlab.org/bio3d/)
+
+### TCL
+
+### Bash
 
