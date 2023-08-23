@@ -1,0 +1,31 @@
+"""
+Script Name: VMD Tcl convert XTC to DCD Script
+Author: Yuhan Wang
+Creation Date: 14th June, 2023
+
+Description:
+This script aims to convert XTC to DCD by loop
+
+The initial reason is that the number of XTC files generated from the simulation is very large so a loop file is needed to convert XTC to DCD automatically
+
+This script should be performed in tcl language in VMD
+
+Compared with MDanalysis, the conversion to DCD in VMD is more accurate and presiding (in MDanalysis the conversion does not seem right - the DCD files generated only have 80KB and seem to lose information)
+
+- This script is intended for educational purposes only.
+- Use at your own risk.
+
+"""
+
+
+set allxtc [glob -directory "/lustre/scratch/ucbeywa/Analysis54Runs200323/ConvertDCD/DCD140523_testOneSample" -- "*.xtc"] # To get a list of files in a directory with glob command
+
+foreach f $allxtc {
+mol new Fab.pdb
+
+mol addfile $f waitfor -1
+set frame [molinfo top get frame]
+set dcd_root [file rootname $f]
+animate write dcd ${dcd_root}.dcd beg 0 waitfor all
+mol delete all
+}
