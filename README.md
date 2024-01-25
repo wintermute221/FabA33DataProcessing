@@ -15,6 +15,12 @@ RMSF, RMSD, Gyrate
 
 Distribution
 
+Net charges
+
+Salt bridges
+
+Hydrogen bonds
+
 ### The rationale behind the molecular features selected for model building
 
 
