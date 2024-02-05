@@ -65,8 +65,8 @@ Hydrogen bonds
 ## Programming languages
 ### Python
 python packages
-* [pandas]()
-* [Dtale]()
+* pandas
+* Dtale
 * re
 * fnmatch
 * lazy predict
