@@ -64,12 +64,18 @@ Hydrogen bonds
 
 ## Programming languages
 ### Python
-* python packages
+python packages
 * [pandas]()
 * [Dtale]()
+* re
+* fnmatch
+* lazy predict
+* seaborn
+* matplotlib.pyplot
+  
 
 ### R
-* R packages
+R packages
 * [bio3d](http://thegrantlab.org/bio3d/)
 
 ### TCL
