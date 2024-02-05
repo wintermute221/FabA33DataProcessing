@@ -56,9 +56,9 @@ Hydrogen bonds
 
 #### Model building
 
-* [Lazy predict] (https://github.com/shankarpandala/lazypredict)
+* [Lazy predict](https://github.com/shankarpandala/lazypredict)
 
-* [SHAP] (https://shap.readthedocs.io/en/latest/)
+* [SHAP](https://shap.readthedocs.io/en/latest/)
 
 
 
